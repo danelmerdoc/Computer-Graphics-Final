@@ -1,0 +1,16 @@
+frames 50
+basename darock
+sample yes
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 .2
+
+rotate y 90
+
+move 100 80 175
+rotate x -90
+scale 3 3 3
+
+rotate z 360 spinny
+mesh shiny_teal :darockobj
+
+vary spinny 0 24 0 1
+vary spinny 25 49 1 0 
